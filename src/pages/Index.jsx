@@ -24,7 +24,7 @@ const Index = () => {
   return (
     <Box p={5}>
       <Input
-        placeholder="Add a new task..."
+        placeholder="Add a new task here..."
         value={input}
         onChange={(e) => setInput(e.target.value)}
         onKeyPress={(e) => e.key === 'Enter' && handleAddTask()}
